@@ -6,6 +6,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
+import "../css/custom.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -22,8 +23,8 @@ function HomepageHeader() {
             to="/docs/intro"
           >
             Docusaurus Tutorial - 5min ⏱️
-            <br/>
-            may deploy on vercel? 
+            <br />
+            may deploy on vercel?
           </Link>
           {/* <button
             onClick={() => {

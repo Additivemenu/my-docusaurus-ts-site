@@ -1,0 +1,84 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.formInputs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.inputGroup {
+  flex: 1;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table th {
+  background-color: #f1f3f5;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 600px) {
+  .formInputs {
+    flex-direction: column;
+  }
+}
